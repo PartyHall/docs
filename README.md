@@ -16,5 +16,5 @@ All of these tools are optional but you will need to think about how to do somet
 ## Table of content
 1. [Building the main booth](1.building_main_booth.md)
 2. Building the buzzers (Optional)
-3. Usage
+3. [Usage](3.usage.md)
 4. Going further
