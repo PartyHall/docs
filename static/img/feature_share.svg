@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Share nodes with neon effect -->
+  <!-- Connection lines -->
+  <path d="M70 100 L130 60 M70 100 L130 140 M130 60 L130 140" 
+        stroke="#f92aa9" stroke-width="2" fill="none"/>
+  
+  <!-- Share points -->
+  <circle cx="70" cy="100" r="15" fill="#262335" stroke="#f92aa9" stroke-width="2"/>
+  <circle cx="130" cy="60" r="15" fill="#262335" stroke="#f92aa9" stroke-width="2"/>
+  <circle cx="130" cy="140" r="15" fill="#262335" stroke="#f92aa9" stroke-width="2"/>
+  
+  <!-- Subtle glow behind nodes -->
+  <circle cx="70" cy="100" r="20" fill="#f92aa9" opacity="0.2"/>
+  <circle cx="130" cy="60" r="20" fill="#f92aa9" opacity="0.2"/>
+  <circle cx="130" cy="140" r="20" fill="#f92aa9" opacity="0.2"/>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "label": "PartyHall",
+  "position": 5,
+  "link": {
+    "type": "doc",
+    "id": "partyhall/index"
+  }
+}

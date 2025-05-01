@@ -1,0 +1,24 @@
+partyhall:
+  label: PartyHall
+  permalink: /partyhall
+  description: Topics related to the PartyHall appliance software
+
+partynexus:
+  label: PartyNexus
+  permalink: /partynexus
+  description: Topics related to the PartyNexus hub software
+
+release:
+  label: Release
+  permalink: /release
+  description: All about new releases of PartyHall & PartyNexus
+
+feature:
+  label: New feature
+  permalink: /features
+  description: Notable new features in PartyHall & PartyNexus
+
+project:
+  label: Project related stuff
+  permalink: /project
+  description: Everything related to the projects that do not fit in other categories

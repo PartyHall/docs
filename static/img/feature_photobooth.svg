@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Mountain background - preserved exactly as before -->
+  <path d="M0 150 L60 80 L100 120 L140 60 L200 150" fill="#262335" />
+  <path d="M0 160 L60 90 L100 130 L140 70 L200 160" fill="#f92aa9" opacity="0.3" />
+  
+  <!-- Camera body - new softer design -->
+  <g>
+    <!-- Main body - now with more rounded corners -->
+    <path d="M45 75 C45 72, 47 70, 50 70 
+             L150 70 C153 70, 155 72, 155 75
+             L155 150 C155 153, 153 155, 150 155
+             L50 155 C47 155, 45 153, 45 150 Z" 
+          fill="#262335" stroke="#f92aa9" stroke-width="1.5"/>
+    
+    <!-- Flash housing - smoother curves -->
+    <path d="M80 70 C80 68, 82 65, 85 65
+             L115 65 C118 65, 120 68, 120 70" 
+          fill="none" stroke="#f92aa9" stroke-width="1.5"/>
+    
+    <!-- Lens housing - moved down by 5 units -->
+    <circle cx="100" cy="115" r="25" fill="#262335" stroke="#f92aa9" stroke-width="1.5"/>
+    
+    <!-- Lens elements - concentric circles with varying opacity - also moved down -->
+    <circle cx="100" cy="115" r="20" fill="none" stroke="#f92aa9" stroke-width="1" opacity="0.9"/>
+    <circle cx="100" cy="115" r="15" fill="none" stroke="#f92aa9" stroke-width="1" opacity="0.7"/>
+    <circle cx="100" cy="115" r="10" fill="none" stroke="#f92aa9" stroke-width="1" opacity="0.5"/>
+    
+    <!-- Decorative elements -->
+    <circle cx="135" cy="85" r="5" fill="none" stroke="#f92aa9" stroke-width="1"/>
+    <rect x="60" y="85" width="15" height="8" rx="2" fill="none" stroke="#f92aa9" stroke-width="1"/>
+  </g>
+  
+  <!-- Grid effect - preserved exactly as before -->
+  <path d="M0 170 L200 170" stroke="#f92aa9" stroke-width="1" opacity="0.3"/>
+  <path d="M0 180 L200 180" stroke="#f92aa9" stroke-width="1" opacity="0.2"/>
+  <path d="M0 190 L200 190" stroke="#f92aa9" stroke-width="1" opacity="0.1"/>
+</svg>

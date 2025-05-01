@@ -1,0 +1,9 @@
+oxodao:
+  name: Oxodao
+  title: PartyHall creator
+  url: https://github.com/oxodao
+  image_url: https://github.com/oxodao.png
+  page: true
+  socials:
+    x: oxodao
+    github: oxodao

@@ -1,0 +1,66 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #f92aa9 !important;
+  --ifm-color-primary-dark: #f80e9e !important;
+  --ifm-color-primary-darker: #f92aa9 !important;
+  --ifm-color-primary-darkest: #f919a2 !important;
+  --ifm-color-primary-light: #fa46b4 !important;
+  --ifm-color-primary-lighter: #fb63c0 !important;
+  --ifm-color-primary-lightest: #fb7fcb !important;
+  --ifm-background-color: #262335 !important;
+  --ifm-navbar-background-color: rgb(23,21,32) !important;
+  --ifm-card-background-color: rgb(23,21,32) !important;
+  --ifm-code-font-size: 95% !important;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1) !important;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #f92aa9 !important;
+  --ifm-color-primary-dark: #f80e9e !important;
+  --ifm-color-primary-darker: #f92aa9 !important;
+  --ifm-color-primary-darkest: #f919a2 !important;
+  --ifm-color-primary-light: #fa46b4 !important;
+  --ifm-color-primary-lighter: #fb63c0 !important;
+  --ifm-color-primary-lightest: #fb7fcb !important;
+  --ifm-background-color: #262335 !important;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: rgb(23,21,32) !important;
+}
+
+.hero .button {
+  --ifm-button-background-color: rgb(23,21,32) !important;
+  --ifm-button-border-color: #262335 !important;
+}
+
+.hero .button.button--secondary {
+  color: var(--ifm-color-primary);
+}
+
+/* Add a subtle border to images in documentation pages */
+.docs .markdown img, .theme-doc-markdown img {
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 0 0 2px black;
+}
+
+/* Exclude homepage and blog images */
+.navbar img, 
+.footer img,
+.blog img,
+.theme-doc-sidebar-item img,
+.theme-doc-toc-mobile button img {
+  border: none;
+}
+
+.theme-admonition-note {
+  background-color: #09080d;
+  border-color: #7a6dad;
+}

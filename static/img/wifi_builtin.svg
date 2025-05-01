@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Dark background -->
+  <rect x="0" y="0" width="200" height="200" fill="#262335"/>
+  
+  <!-- WiFi symbol - properly stacked arcs -->
+  <!-- Largest arc - Top level -->
+  <path d="M50 110 Q100 60 150 110" fill="none" stroke="#f92aa9" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Medium arc - Middle level -->
+  <path d="M65 125 Q100 90 135 125" fill="none" stroke="#f92aa9" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Smallest arc - Bottom level -->
+  <path d="M80 140 Q100 120 120 140" fill="none" stroke="#f92aa9" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- WiFi dot at bottom -->
+  <circle cx="100" cy="155" r="6" fill="#f92aa9"/>
+  
+  <!-- Subtle glow effects -->
+  <path d="M50 110 Q100 60 150 110" fill="none" stroke="#f92aa9" stroke-width="8" stroke-linecap="round" opacity="0.2"/>
+  <path d="M65 125 Q100 90 135 125" fill="none" stroke="#f92aa9" stroke-width="8" stroke-linecap="round" opacity="0.2"/>
+  <path d="M80 140 Q100 120 120 140" fill="none" stroke="#f92aa9" stroke-width="8" stroke-linecap="round" opacity="0.2"/>
+</svg>
